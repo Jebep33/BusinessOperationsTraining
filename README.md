@@ -7,7 +7,7 @@ A beginner-friendly project that loads and displays contact information from a J
 ## 🚀 Project Goal
 
 Learn how to:
-- Parse and manipulate JSON data
+- Parse and manipulate JSON data`
 - Build a simple script or web interface to display structured data
 - Use basic JavaScript or Python skills in a real-world mini-project
 
