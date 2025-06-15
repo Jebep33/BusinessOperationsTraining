@@ -1,12 +1,12 @@
 function addNumber(myArr,myNum){
-    if (typeof(myNum) == int){
+    if (typeof(myNum) == "number"){
         myArr.push(myNum);
         return myArr;
     }else console.log("Input is not a number")
 }
 
 function reverseString(myStr){
-    if (typeof(myStr) == String){
+    if (typeof(myStr) == "string"){
         let revString = myStr.split("").reverse().join("");
         return revString;
     }else console.log("Input is not a string!")
