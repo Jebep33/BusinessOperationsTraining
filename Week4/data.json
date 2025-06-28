@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "address": {
+        "city": "Wonderland",
+        "zipcode": "12345"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "address": {
+        "city": "Builderburg",
+        "zipcode": "12321"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "address": null
+    },
+    {
+        "id": 3,
+        "name": "Jerome",
+        "address": {
+            "city": "Cebu",
+            "zipcode": "12336"
+        }
+    }
+  ]
+}
