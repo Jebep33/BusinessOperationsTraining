@@ -22,6 +22,6 @@ const fs = require('fs');
 
 const contacts = fs.readFileSync('contacts.json','utf-8');
 
-console.log(dataString);
+console.log(contacts);
 console.log("-----");
-console.log(JSON.parse(dataString));
+console.log(JSON.parse(contacts));
