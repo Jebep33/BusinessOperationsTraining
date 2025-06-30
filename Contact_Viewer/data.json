@@ -11,6 +11,15 @@
     },
     {
       "id": 2,
+      "name": "Alex",
+      "email": "alexthegreat@gmail.com",
+      "address": {
+        "city": "Wonderland",
+        "zipcode": "12344"
+      }
+    },
+    {
+      "id": 3,
       "name": "Bob",
       "email": "bobthebuilder@gmail.com",
       "address": {
@@ -19,18 +28,22 @@
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Charlie",
       "email": "charliechocos@gmail.com",
-      "address": null
+      "address": {
+        "city": "Iceland",
+        "zipcode": "12358"
+      }
     },
     {
-        "id": 3,
-        "name": "Jerome",
-        "address": {
-            "city": "Cebu",
-            "zipcode": "12336"
-        }
+      "id": 5,
+      "name": "Jerome",
+      "email": "jbpalomaria33@gmail.com",
+      "address": {
+        "city": "Cebu",
+        "zipcode": "12336"
+      }
     }
   ]
 }
