@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Alice",
+      "email": "aliceinwonder@gmail.com",
       "address": {
         "city": "Wonderland",
         "zipcode": "12345"
@@ -11,6 +12,7 @@
     {
       "id": 2,
       "name": "Bob",
+      "email": "bobthebuilder@gmail.com",
       "address": {
         "city": "Builderburg",
         "zipcode": "12321"
@@ -19,6 +21,7 @@
     {
       "id": 3,
       "name": "Charlie",
+      "email": "charliechocos@gmail.com",
       "address": null
     },
     {
