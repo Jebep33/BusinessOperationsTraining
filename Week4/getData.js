@@ -4,7 +4,7 @@ const fs = require('fs');
 const data = JSON.parse(jsonFile);
 
 try{
-    const myData = data.users.find(user => user.id === 3);
+    const myData = data.users.find(user => user.id === 4);
 
     if(!(myData.address)){
         throw new TypeError("Access Error: This user has no address.")
