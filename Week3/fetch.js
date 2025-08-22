@@ -3,6 +3,9 @@ fetch("https://jsonplaceholder.typicode.com/posts")
     if (!response.ok) {
       throw new Error("Network response was not ok.");
     }
+    console.log("Response starts here\n");
+    console.log(response);
+    console.log("Response Ends here\n");
     return response.json();
   })
   .then(data => {
