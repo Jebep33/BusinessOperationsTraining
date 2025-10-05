@@ -1,5 +1,5 @@
 fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
-    .then(res => res.json())
+    .then(res => res.json()) //good as await
     .then(data => {
         console.log(data.name);
         console.log(data.abilities[0].ability.name);

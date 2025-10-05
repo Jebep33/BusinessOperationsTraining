@@ -19,7 +19,7 @@
         userTaskCount[datum.userId] = (userTaskCount[datum.userId] || 0) + 1;
     });
 
-    let activeUsers = Object.keys(userTaskCount).filter(userID => userTaskCount[userID] > 3);
+    let activeUsers = Object.keys(userTaskCount).filter(userID => userTaskCount[userID] > 3); //good as await
     console.log("Users with more than 3 tasks:", activeUsers);
     console.log("User Task Counts: ", userTaskCount);
 
