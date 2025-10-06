@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini News Widget</title>
     <script src="getNews.js"></script>
+    <style>
+        #timestamp {
+            font-size: x-small;
+            font-weight: lighter;
+        }
+    </style>
 </head>
 <body>
+    <p id="status">Fetching latest data...</p>
     <div id="list-posts"></div>
     <footer id="timestamp"></footer>
 </body>
